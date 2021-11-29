@@ -116,6 +116,7 @@ header li,a{
 		height: 100px;
 		margin-top: -1px;
 		padding-top: 0;
+		color: white;
 	}
 	#about img{
 		float: left;
