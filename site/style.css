@@ -35,7 +35,7 @@ header li,a{
 	color: black;
 	font-size: large;
 	text-align: center;
-	height: 100px;
+	height: 70vh;
 	margin-top: 70px;
 	padding-top: 0;
 	width: 100%;
@@ -54,7 +54,7 @@ header li,a{
 	color: black;
 	font-size: large;
 	text-align: center;
-	height: 100px;
+	height: 70vh;
 	margin-top: -1px;
 	padding-top: 0;
 }
