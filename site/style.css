@@ -1,0 +1,140 @@
+header{
+	height: 70px;
+	background: rgba(0, 200, 200, 1);
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+}
+#header-img{
+	width: 150px;
+	height: 60px;
+}
+header ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	position: fixed;
+	top: 0;
+	width: 100%;
+}
+header li{
+	float: right;
+}
+header li,a{
+	display: block;
+	padding: 10px 20px;
+	text-decoration: none;
+	color: black;
+	font-size: 20px;
+	font-weight: 600;
+}
+#intro-section{
+	background: white;
+	color: black;
+	font-size: large;
+	text-align: center;
+	height: 70vh;
+	margin-top: 70px;
+	padding-top: 0;
+	width: 100%;
+}
+#intro-section h1{
+	padding-top: 160px;
+	font-size: 40px;
+	font-family: Outfit, arial;
+}
+#small-headerText{
+	font-size: 20px;
+	margin-top: 10px;
+}
+#about{
+	background: grey;
+	color: black;
+	font-size: large;
+	text-align: center;
+	height: 70vh;
+	margin-top: -1px;
+	padding-top: 0;
+}
+#about img{
+	float: left;
+	width: 400px;
+	height: 400px;
+	margin-top: -50px;
+	margin-left: 35px;
+}
+#about p{
+	padding-top: 70px;
+	padding-left: 50px;
+	font-size: 23px;
+	font-family: Outfit, arial;
+}
+#about h1{
+	padding-top: 10px;
+	font-family: Outfit, Arial;
+	padding-left: 50px;
+	font-size: 50px;
+}
+@media only screen and (max-width: 480px){
+	header{
+		height: 16px;
+	}
+	#header-img{
+		width:30px;
+		height: 15px;
+	}
+	header li,a{
+		padding: 2px 5px;
+		font-size: 5px
+	}
+	#intro-section{
+		background:white;
+		color: black;
+		font-size: 10px;
+		text-align: center;
+		height: 70vh;
+		margin-top: -18px;
+		padding-top: 0;
+		width: 100%;
+	}
+	#intro-section h1{
+		padding-top: 50px;
+		font-size: 7px;
+		font-family: Outfit, arial;
+	}
+	#small-headerText{
+		font-size: 5px;
+		margin-top: 5px;
+	}
+	#about{
+		background:grey;
+		color: black;
+		font-size: 10px;
+		text-align: center;
+		height: 70vh;
+		margin-top: -1px;
+		padding-top: 0;
+	}
+	#about img{
+		float: left;
+		width: 80px;
+		height: 80px;
+		margin-top: -30px;
+		margin-left: 5px;
+	
+	}
+	#about p{
+		padding-top: 1px;
+		padding-left: 50px;
+		font-size: 4px;
+		font-family: Outfit, arial;
+	}
+	#about h1{
+		padding-top: 5px;
+		font-family: Outfit, Arial;
+		text-align: center;
+		padding-left: 50px;
+	}
+}
